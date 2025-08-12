@@ -1,10 +1,6 @@
 name: Basic Commands1
 
-on:
-  push:
-    branches:
-      - main
-      - newB
+on: [push]
 jobs:
   demo-commands1:
     runs-on: ubantu-latest
