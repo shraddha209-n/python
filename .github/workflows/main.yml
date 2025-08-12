@@ -3,7 +3,7 @@ name: Basic Commands1
 on: [push]
 jobs:
   demo-commands1:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
 
     steps: 
       - name: Show current working directory 
