@@ -17,4 +17,4 @@ jobs:
 
 
      - name: run PythonCode.py
-       run: PythonCode.py
+       run: python PythonCode.py
