@@ -1,4 +1,4 @@
-name: Basic Command
+name: Basic Commands
 
 on: 
   schedule:
@@ -9,7 +9,7 @@ on:
      runs-on:ubuntu-latest
 
      steps:
-      -name:Show current work directory
+      -name:Show current working directory
        run:pwd
    
    
