@@ -2,15 +2,13 @@ name: Basic Commands
 
 on: 
   schedule:
-   -corn:"*/2 * * * *"
+    - cron: "*/2 * * * *"
  
-  jobs:
-    demo-commands:
-     runs-on:ubuntu-latest
+jobs:
+  demo-commands:
+    runs-on: ubuntu-latest
 
-     steps:
-      -name:Show current working directory
-       run:pwd
+    steps: 
+     - name: Show current working directory
+       run: pwd
    
-   
-
