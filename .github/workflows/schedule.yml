@@ -1,0 +1,16 @@
+name: Basic Command
+
+on: 
+  schedule:
+   -corn:"*/2 * * * *"
+ 
+  jobs:
+    demo-commands:
+     runs-on:ubuntu-latest
+
+     steps:
+      -name:Show current work directory
+       run:pwd
+   
+   
+
